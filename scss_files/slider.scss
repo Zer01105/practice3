@@ -1,0 +1,117 @@
+.slider{
+    position: relative;
+    align-items: center;
+    margin-top: 25px;
+    padding-left: 85px;
+    padding-left: 85px;
+    background-image: url(images/back.png);
+    display: flex;
+    justify-content: space-between;
+    &_squares{
+        display: flex;
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: 170px;
+        height: 25px;
+    }
+    .slider_square.active{
+        width: 22px;
+        height: 22px;
+        background-color: black;
+    }
+    &_square{
+        width: 18px;
+        height: 18px;
+        background-color: transparent;
+        border: 2px solid #828282;
+        margin-right: 10px;
+    }
+    &_images{
+        min-width: 900px;
+        min-height: 700px;
+        position: relative;
+        margin-right: 150px;
+        display: flex;
+        .slider_image_2.active{
+            transform: scale(1.1);
+            z-index: 2;
+            transform: translateX(70%)
+        }
+        .slider_image_2{
+            transition: all 0.5s ease-in-out;
+            position: absolute;
+            max-width: 474px;
+            max-height: 709px;
+            transform: scale(.9);
+
+        }
+    }
+    &_text{
+        margin-left: 75px;
+        .summer{
+            margin-top: 35px;
+        }
+        position: relative;
+        .ramka{
+            position: absolute;
+            top: 0;
+        }
+        .shop_now{
+            a{
+                margin-top: 25px;
+                font-family: Oswald;
+                font-size: 18px;
+                line-height: 26.68px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                border: 2px black solid;
+                background-color: transparent;
+                text-transform: uppercase;
+                width: 175px;
+                height: 56px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+    &_arrows{
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &_l{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            opacity: 90%;
+            img{
+                width: 10px;
+                height: 10px;
+            }
+            margin-right: 10px;
+        }
+        &_r{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            opacity: 90%;
+            img{
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+.filter{
+    &_select{
+        margin-right: 240px;
+        &_title{
+            font-family: Oswald;
+            font-size: 24px;
+            line-height: 68px;
+            text-align: left;
+        }
+        &_checkbox{
+            margin-top: 10px;
+            label{
+                font-family: Roboto;
+                font-size: 14px;
+                text-align: left;
+                text-transform: uppercase;
+            }
+        }
+    }
+    margin-top: 25px;
+    display: flex;
+    &_main{
+        &_images{
+            display: grid;
+            grid-template-columns: 344px 344px 344px 344px;
+            grid-template-rows: 548px 548px;
+            column-gap: 20px;
+            row-gap: 20px;
+            &_product{
+                &_filter{
+                    font-family: Oswald;
+                    font-size: 12px;
+                    line-height: 17.78px;
+                    text-align: left;
+                    color: #BDBDBD;
+                }
+                &_title{
+                    font-family: Oswald;
+                    font-size: 18px;
+                    line-height: 26.68px;
+                    text-align: left;
+                }
+                &_price{
+                    font-family: Oswald;
+                    font-size: 22px;
+                    line-height: 32.6px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    display: flex;
+                    align-items: end;
+                    &_discount{
+                        font-family: Oswald;
+                        font-size: 22px;
+                        line-height: 32.6px;
+                        text-align: left;
+                        color: #EB5757;
+                        text-transform: uppercase;
+                        margin-right: 15px;
+                    }
+                    &_main{
+                        font-family: Oswald;
+                        font-size: 14px;
+                        line-height: 20.75px;
+                        text-align: left;
+                        color: #BDBDBD;
+                        text-transform: uppercase;
+                        text-decoration: line-through;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+        &_button{
+            a{
+                margin-right: auto;
+                margin-left: auto;
+                font-family: Oswald;
+                font-size: 14px;
+                line-height: 20.75px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                color: #828282;
+                text-transform: uppercase;
+            }
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            width: 140px;
+            height: 60px;
+            border: 2px solid #C4C4C4;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}
+.filter_main_button.active{
+    a{
+        margin-right: auto;
+                margin-left: auto;
+                font-family: Oswald;
+                font-size: 14px;
+                line-height: 20.75px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                color: #828282;
+                text-transform: uppercase;
+    }
+}
+.a_but{
+    display: flex;
+    justify-content: center;
+    padding-left: auto;
+    padding-right: auto;
+    font-family: Oswald;
+    font-size: 14px;
+                line-height: 20.75px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                color: #828282;
+                text-transform: uppercase;
+}

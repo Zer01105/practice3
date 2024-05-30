@@ -1,0 +1,114 @@
+footer{
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    img{
+        width: 103px;
+        height: 44px;
+    }
+}
+.footer{
+    &_collumn{
+        &_title{
+            font-family: Oswald;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 26.68px;
+            text-align: left;
+            text-transform: uppercase;
+            color: white;
+
+        }
+        &_text{
+            &_soc{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 21px;
+                    height: 21px;
+                    margin-right: 20px;
+                }
+            }
+            a{
+                font-family: Roboto Medium;
+                font-size: 13px;
+                line-height: 27px;
+                text-align: left;
+                color: #828282;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            &_main{
+                margin-top: 10px;
+                font-family: Oswald;
+                font-size: 12px;
+                text-align: left;
+                color: white;
+                text-transform: uppercase;
+            }
+            &_sub{
+                margin-top: 10px;
+                font-family: Roboto Medium;
+                font-size: 12px;
+                text-align: left;
+                color: #828282;
+                text-transform: uppercase;
+            }
+            &_media{
+                font-family: Roboto Medium;
+                font-size: 13px;
+                line-height: 46px;
+                text-align: left;
+                color: #828282;
+                text-transform: uppercase;
+            }
+        }
+        input{
+            background-color: transparent;
+            border: 1px solid white;
+            width: 260px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            font-family: Roboto;
+            margin-bottom: 10px;
+                font-size: 12px;
+                line-height: 20px;
+                text-align: left;
+                color: white;
+            ::placeholder{
+                font-family: Roboto;
+                font-size: 12px;
+                line-height: 20px;
+                text-align: left;
+                color: white;
+            }
+            :focus{
+                border: none;
+            }
+        }
+        button{
+            width: 280px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            pointer-events: none;
+            background-color: white;
+            div{
+                font-family: Oswald;
+                font-size: 14px;
+                line-height: 20.75px;
+                text-align: center;
+                color: #828282;
+                text-transform: uppercase;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.categories{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    &_header{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_title{
+        font-family: Oswald;
+        font-size: 24px;
+        line-height: 68px;
+        text-align: left;
+    }
+    &_arrows{
+        display: flex;
+        img{
+            margin-left: auto;
+            margin-right: auto;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    &_arrow{
+        display: flex;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #C4C4C4;
+    }
+    &_main{
+        display: flex;
+    }
+    &_image{
+        flex: 1;
+        margin-right: 32px;
+    }
+}
+.explore{
+    margin-top: 80px;
+    display: flex;
+    max-height: 363px;
+    align-items: center;
+    img{
+        max-width: 1060px;
+    }
+    .limits_text{
+        padding-top: 20px;
+        img{
+            top: 0;
+            left: 260px;
+        }
+    }
+}

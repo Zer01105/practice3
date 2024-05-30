@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toggle Visibility with Class</title>
+<link rel="stylesheet" href="main.min.css">
+<script src="main.js"></script>
+</head>
+<body> 
+<ul class="menu" id="menu">
+    <li>home</li>
+    <li>Shop</li>
+    <li>blog</li>
+    <li>Sale</li>
+    <li>contact us</li>
+</ul>       
+<div class="sign1 none" id="sign1">
+  <div class="sign_content">
+    <h2>Sign In</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+</div>
+<header>
+  <img class="burger" src="images/Group 5.png" alt="" id="burger">
+  <img class="logo" src="images/Group 4.png" alt="logo_header">
+  <nav>
+      <div><a href="#">home</a></div>
+      <div><a href="#">Shop</a></div>
+      <div><a href="#">blog</a></div>
+      <div><a href="#">Sale</a></div>
+      <div><a href="#">contact us</a></div>
+      <div class="search">
+          <img src="images/Group 3.png" alt="search">
+          <input type="text" placeholder="Seacrh">
+      </div>
+  </nav>
+  <div class="header_account" class="active_sign" id="active_sign">
+      <div><a href="#" class="active_sign" id="active_sign" >SIGN IN</a></div>
+      <div><a href="#">CREATE AN ACCOUNT</a></div>
+      <img src="images/Vector.png" alt="like">
+      <img src="images/Rectangle 3.png" alt="cart" >
+      <div class="header_account_balance">
+          <div>Shopping Cart</div>
+          <div class="EUR">0,00 EUR</div>
+      </div>
+  </div>
+</header>
+<div class="slider">
+  <div class="slider_squares">
+      <div class="slider_square active"></div>
+      <div class="slider_square"></div>
+  </div>
+  <div class="slider_text">
+      <img class="ramka" src="images/ramka.png" alt="ramka">
+      <img class="summer" src="images/summer.png" alt="">
+      <div class="shop_now"><a href="#">Shop now</a></div>
+  </div>
+  <div class="slider_images">
+      <img class="slider_image_2 active" src="images/image 3.png" alt="">
+      <img class="slider_image_2" src="images/image 2.png" alt="">
+  </div>
+  <div class="slider_arrows">
+      <div class="slider_arrows_l arrow">
+          <img src="images/arrow_l.png" alt="">
+      </div>
+      <div class="slider_arrows_r arrow">
+          <img src="images/arrow_r.png"  alt="">
+      </div>
+  </div>
+</div>
+<div class="tabbs">
+  <fieldset>
+      <legend>chose your brand</legend>
+      <div class="tabbs_main" id="brands">
+          <div class="brand">
+              <img class="brands" src="images/tabbs/chanel.png" alt="">
+          </div>
+          <div class="brand">
+              <img src="images/tabbs/burberry.png" alt="">
+          </div>
+          <div class="brand">
+              <img src="images/tabbs/dior.png" alt="">
+          </div>
+          <div class="brand">
+              <img src="images/tabbs/fendy.png" alt="">
+          </div>
+          <div class="brand">
+              <img src="images/tabbs/versace.png" alt="">
+          </div>
+          <div class="brand">
+              <img src="images/tabbs/gucci.png" alt="">
+          </div>
+          <div class="brand">
+              <img src="images/tabbs/armani.png" alt="">
+          </div>
+      </div>
+  </fieldset>
+  <div class="brand_texts" id="brand_texts">
+      <div class="brand_text">A French luxury fashion brand founded by Coco Chanel in 1910. Known for its timeless and elegant designs, including the iconic little black dress and Chanel No. 5 perfume</div>
+      <div class="brand_text">A British luxury fashion brand founded by Thomas Burberry in 1856. Famous for its signature trench coats, scarves, and check pattern, which has become a symbol of the brand.</div>
+      <div class="brand_text">A French luxury fashion brand founded by designer Christian Dior in 1946. Known for its feminine and sophisticated designs, including the New Look silhouette, which revolutionized women's fashion in the post-war era</div>
+      <div class="brand_text">An Italian luxury fashion brand founded by Adele and Edoardo Fendi in 1925. Known for its high-quality leather goods, including the iconic Baguette bag, as well as its fur and ready-to-wear collections</div>
+      <div class="brand_text">An Italian luxury fashion brand founded by Gianni Versace in 1978. Known for its bold and glamorous designs, featuring bright colors, bold prints, and sexy silhouettes</div>
+      <div class="brand_text"> An Italian luxury fashion brand founded by Guccio Gucci in 1921. Known for its eclectic and maximalist designs, featuring the iconic double-G logo, as well as its leather goods, shoes, and accessories</div>
+      <div class="brand_text"> An Italian luxury fashion brand founded by Giorgio Armani in 1975. Known for its sophisticated and understated designs, featuring clean lines and neutral colors. The brand offers a range of products, including ready-to-wear, accessories, and fragrances</div>
+  </div>
+</div>
+<div class="grid">
+  <div class="grid_choose">
+      <img src="images/grid/image 3.png" alt="">
+      <div class="grid_choose_text">
+          <div class="grid_choose_text_title">choosе your look</div>
+          <div class="grid_choose_text_subtitle">See our clothing collections</div>
+          <div class="grid_choose_text_button"> <a href="#">see offers</a> </div>
+      </div>
+  </div>
+  <div class="grid_style">
+      <div class="grid_choose_text">
+          <div class="grid_choose_text_title">brand new style</div>
+          <div class="grid_choose_text_subtitle">Popular clothing brands</div>
+          <div class="grid_choose_text_button"> <a href="#">see offers</a> </div>
+      </div>
+      <img src="images/image 4.png" alt="">
+  </div>
+  <div class="grid_off">
+      <div class="grid_choose_text">
+          <div class="grid_choose_text_title">Up to 40% off</div>
+          <div class="grid_choose_text_subtitle">Special offers and great deals</div>
+          <div class="grid_choose_text_button"> <a href="#">Shop now</a> </div>
+      </div>
+      <img src="images/grid/image 5.png" alt="">
+  </div>
+</div>
+<div class="filter">
+  <div class="filter_select">
+      <div class="filter_select_title">Shop Some Wear:</div>
+      <div class="filter_select_checkbox">
+          <input type="checkbox" name="checkbox" id="filterCheckbox_Best_sellers">
+          <label for="checkbox">Best sellers</label>
+      </div>
+      <div class="filter_select_checkbox">
+          <input type="checkbox" name="checkbox" id="filterCheckbox_NEW_Arivals">
+          <label for="checkbox">NEW Arivals</label>
+      </div>
+      <!-- <div class="filter_select_checkbox" id="filterCheckbox3">
+          <input type="checkbox" name="checkbox">
+          <label for="checkbox">TOP women</label>
+      </div>
+      <div class="filter_select_checkbox" id="filterCheckbox4">
+          <input type="checkbox" name="checkbox">
+          <label for="checkbox">Collection: Summer</label>
+      </div>
+      <div class="filter_select_checkbox" id="filterCheckbox5">
+          <input type="checkbox" name="checkbox">
+          <label for="checkbox">Collection: spring</label>
+      </div>
+      <div class="filter_select_checkbox" id="filterCheckbox6">
+          <input type="checkbox" name="checkbox">
+          <label for="checkbox">TREnding</label>
+      </div> -->
+  </div>
+  <div class="filter_main">
+      <div class="filter_main_images">
+          <div class="filter_main_images_product" data-filter1="Best_sellers" data-filter2="1" data-filter3="2" data-filter4="1" data-filter5="1" data-filter6="1">
+              <img src="images/filters/Rectangle 7.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">139,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" alt="" data-filter1="no" data-filter2="2" data-filter2="3" data-filter3="2" data-filter4="1" data-filter5="1" data-filter6="1">
+              <img src="images/filters/Rectangle 7-1.png" >
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">235,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" alt="" data-filter1="Best_sellers" data-filter2="1" data-filter2="2" data-filter3="2" data-filter4="2" data-filter5="1" data-filter6="1">
+              <img src="images/filters/Rectangle 7-2.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">90,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" data-filter1="no" data-filter2="2" data-filter2="2" data-filter3="2" data-filter4="2" data-filter5="1" data-filter6="2">
+              <img src="images/filters/Rectangle 7-3.png" alt="" >
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">
+                  <div class="filter_main_images_product_price_discount">139,00 EUR</div>
+                  <div class="filter_main_images_product_price_main">119,00 EUR</div>
+              </div>
+          </div>
+          <div class="filter_main_images_product" data-filter1="Best_sellers" data-filter2="1" data-filter2="1" data-filter3="2" data-filter4="1" data-filter5="1" data-filter6="1">
+              <img src="images/filters/Rectangle 7-4.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">139,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" alt="" data-filter1="no" data-filter2="2" data-filter2="2" data-filter3="2" data-filter4="2" data-filter5="2" data-filter6="2">
+              <img src="images/filters/Rectangle 7-5.png" >
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">235,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" data-filter1="Best_sellers" data-filter2="1" data-filter2="3" data-filter3="1" data-filter4="2" data-filter5="1" data-filter6="1">
+              <img src="images/filters/Rectangle 7-6.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">90,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" data-filter2="1" data-filter2="3" data-filter3="1" data-filter4="2" data-filter5="1" data-filter6="1">
+              <img src="images/filters/Rectangle 7-7.png" alt="" data-filter1="Best_sellers">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">
+                  <div class="filter_main_images_product_price_discount">139,00 EUR</div>
+                  <div class="filter_main_images_product_price_main">119,00 EUR</div>
+              </div>
+          </div>
+          <div class="filter_main_images_product" style="display: none;" data-filter1="no"  data-filter2="3" data-filter3="1" data-filter4="2" data-filter5="1" data-filter6="1">
+              <img src="images/filters/Rectangle 7.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">139,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" style="display: none;" data-filter1="Best_sellers" data-filter2="1"> 
+              <img src="images/filters/Rectangle 7-1.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">235,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" style="display: none;" data-filter1="no">
+              <img src="images/filters/Rectangle 7-2.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">90,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" style="display: none;" data-filter1="Best_sellers">
+              <img src="images/filters/Rectangle 7-3.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">
+                  <div class="filter_main_images_product_price_discount">139,00 EUR</div>
+                  <div class="filter_main_images_product_price_main">119,00 EUR</div>
+              </div>
+          </div>
+          <div class="filter_main_images_product" style="display: none;" data-filter1="no">
+              <img src="images/filters/Rectangle 7-4.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">139,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" style="display: none;" data-filter1="no">
+              <img src="images/filters/Rectangle 7-5.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">235,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" style="display: none;" data-filter1="Best_sellers">
+              <img src="images/filters/Rectangle 7-6.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">90,00 EUR</div>
+          </div>
+          <div class="filter_main_images_product" style="display: none;" data-filter1="Best_sellers">
+              <img src="images/filters/Rectangle 7-7.png" alt="">
+              <div class="filter_main_images_product_filter">TOP women</div>
+              <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+              <div class="filter_main_images_product_price">
+                  <div class="filter_main_images_product_price_discount">139,00 EUR</div>
+                  <div class="filter_main_images_product_price_main">119,00 EUR</div>
+              </div>
+          </div>
+      </div>
+      <div class="filter_main_button"><a class="a_but" href="#">Load more</a></div>
+  </div>
+</div>
+<div class="limits">
+  <div class="limits_text">
+      <img src="images/ramka.png" alt="ramka">
+      <div class="limits_text_title">shoping without limits.</div>
+      <div class="limits_text_main">You can choose the best option for you, and it does not matter whether you are in Prague or San Francisco. We will deliver your purchase anywhere!</div>
+      <div class="limits_text_button"><a href="#">shop now</a></div>
+  </div>
+</div>
+<div class="categories">
+  <div class="categories_header">
+      <div class="categories_title">Featured Items</div>
+      <div class="categories_arrows">
+          <div class="categories_arrow left" id="leftArrow">
+              <img src="images/categories/Vector-1.png" alt="">
+          </div>
+          <div class="categories_arrow right" id="rightArrow">
+              <img src="images/categories/Vector.png" alt="">
+          </div>
+      </div>
+  </div>
+  <div class="categories_main" id="slider">
+      <div class="categories_image">
+          <img src="images/filters/Rectangle 7-6.png" alt="">
+          <div class="filter_main_images_product_filter">TOP women</div>
+          <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+          <div class="filter_main_images_product_price">90,00 EUR</div>
+      </div>
+      <div class="categories_image">
+          <img src="images/filters/Rectangle 7-4.png" alt="">
+          <div class="filter_main_images_product_filter">TOP women</div>
+          <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+          <div class="filter_main_images_product_price">90,00 EUR</div>
+      </div>
+      <div class="categories_image">
+          <img src="images/filters/Rectangle 7-5.png" alt="">
+          <div class="filter_main_images_product_filter">TOP women</div>
+          <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+          <div class="filter_main_images_product_price">90,00 EUR</div>
+      </div>
+      <div class="categories_image">
+          <img src="images/filters/Rectangle 7-2.png" alt="">
+          <div class="filter_main_images_product_filter">TOP women</div>
+          <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+          <div class="filter_main_images_product_price">139,00 EUR</div>
+      </div>
+      <div class="categories_image">
+          <img src="images/filters/Rectangle 7-3.png" alt="">
+          <div class="filter_main_images_product_filter">TOP women</div>
+          <div class="filter_main_images_product_title">Angels malu zip jeans slim black used</div>
+          <div class="filter_main_images_product_price">90,00 EUR</div>
+      </div>
+  </div>
+</div>
+<div class="explore">
+  <img src="images/image 2.1.png" alt="">
+  <div class="limits_text">
+      <img src="images/ramka.png" alt="ramka">
+      <div class="limits_text_title">shoping without limits.</div>
+      <div class="limits_text_main">You can choose the best option for you, and it does not matter whether you are in Prague or San Francisco. We will deliver your purchase anywhere!</div>
+      <div class="limits_text_button"><a href="#">shop now</a></div>
+  </div>
+</div>
+<div class="blog">
+  <div class="blog_title">Blog</div>
+  <div class="blog_blocks">
+      <div class="blog_block">
+          <div class="blog_block_article">Article</div>
+          <div class="blog_block_title">Exactly What To Wear To Every Type Of Wedding This Summer</div>
+          <div class="blog_block_main">A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your perception of the brand - and additionally, it costs money.</div>
+          <div class="blog_block_end">
+              <div class="blog_block_line"></div>
+              <div class="blog_block_date">21 January 2018 by guido</div>
+          </div>
+      </div>
+      <div class="blog_block">
+          <div class="blog_block_article">TIPS</div>
+          <div class="blog_block_title">Exactly What To Wear To Every Type Of Wedding This Summer</div>
+          <div class="blog_block_main">When selling 70% fewer shirts, however, there are fewer shirts on the market, making it more exclusive, and therefore worth the money, for those to whom it matters. </div>
+          <div class="blog_block_end">
+              <div class="blog_block_line"></div>
+              <div class="blog_block_date">21 January 2018 by guido</div>
+          </div>
+      </div>
+      <div class="blog_block">
+          <div class="blog_block_article"></div>
+          <div class="blog_block_title">Exactly What To Wear To Every Type Of Wedding This Summer</div>
+          <div class="blog_block_main">A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your perception of the brand - and additionally, it costs money.</div>
+          <div class="blog_block_end">
+              <div class="blog_block_line"></div>
+              <div class="blog_block_date">21 January 2018 by guido</div>
+          </div>
+      </div>
+      <div class="blog_block">
+          <div class="blog_block_article"></div>
+          <div class="blog_block_title">Exactly What To Wear To Every Type Of Wedding This Summer</div>
+          <div class="blog_block_main">When selling 70% fewer shirts, however, there are fewer shirts on the market, making it more exclusive, and therefore worth the money, for those to whom it matters. </div>
+          <div class="blog_block_end">
+              <div class="blog_block_line"></div>
+              <div class="blog_block_date">21 January 2018 by guido</div>
+          </div>
+  </div>
+</div>
+<div class="recomended">
+  <div class="recomended_block">
+      <img src="images/Group 15.png" alt="">
+      <div class="recomended_block_text">Duties and Taxes Guaranteed</div>
+  </div>
+  <div class="recomended_block">
+      <img src="images/Group 15.png" alt="">
+      <div class="recomended_block_text">Free Express Shipping</div>
+  </div>
+  <div class="recomended_block">
+      <img src="images/Group 15.png" alt="">
+      <div class="recomended_block_text">Customer Love</div>
+  </div>
+  <div class="recomended_block">
+      <img src="images/Group 15.png" alt="">
+      <div class="recomended_block_text">Easy Returns</div>
+  </div>
+  <div class="recomended_block">
+      <img src="images/Group 15.png" alt="">
+      <div class="recomended_block_text">Secure Payment</div>
+  </div>
+</div>
+<footer>
+  <img src="images/Group 4.png" alt="">
+  <div class="footer_collumn">
+      <div class="footer_collumn_title">features</div>
+      <div class="footer_collumn_text"><a href="#">men</a></div>
+      <div class="footer_collumn_text"><a href="#">Women</a></div>
+      <div class="footer_collumn_text"><a href="#">boys</a></div>
+      <div class="footer_collumn_text"><a href="#">girls</a></div>
+      <div class="footer_collumn_text"><a href="#">new arrivals</a></div>
+      <div class="footer_collumn_text"><a href="#">shoes</a></div>
+      <div class="footer_collumn_text"><a href="#">cothes</a></div>
+      <div class="footer_collumn_text"><a href="#">accessories</a></div>
+  </div>
+  <div class="footer_collumn">
+      <div class="footer_collumn_title">Menu</div>
+      <div class="footer_collumn_text"><a href="#">About us</a></div>
+      <div class="footer_collumn_text"><a href="#">contact us</a></div>
+      <div class="footer_collumn_text"><a href="#">my account</a></div>
+      <div class="footer_collumn_text"><a href="#">orders history</a></div>
+      <div class="footer_collumn_text"><a href="#">MY WISHLIST</a></div>
+      <div class="footer_collumn_text"><a href="#">BLOG</a></div>
+      <div class="footer_collumn_text"><a href="#">LOGIN</a></div>
+  </div>
+  <div class="footer_collumn">
+      <div class="footer_collumn_title">contact us</div>
+      <div class="footer_collumn_text">
+          <div class="footer_collumn_text_main">Address:</div>
+          <div class="footer_collumn_text_sub">123 STREET NAME, CITY, ENGLAND</div>
+      </div>
+      <div class="footer_collumn_text">
+          <div class="footer_collumn_text_main">Phone:</div>
+          <div class="footer_collumn_text_sub">(123) 456-7890</div>
+      </div>
+      <div class="footer_collumn_text">
+          <div class="footer_collumn_text_main">email:</div>
+          <div class="footer_collumn_text_sub">MAIL@EXAMPLE.COM</div>
+      </div>
+      <div class="footer_collumn_text">
+          <div class="footer_collumn_text_main">working days/hours</div>
+          <div class="footer_collumn_text_sub">MON - SUN / 9:00AM - 8:00PM</div>
+      </div>
+  </div>
+  <div class="footer_collumn">
+      <div class="footer_collumn_title">follow us</div>
+      <div class="footer_collumn_text_soc">
+          <img src="images/facebook (3).png" alt="">
+          <div class="footer_collumn_text_media">FACEBOOK</div>
+      </div>
+      <div class="footer_collumn_text_soc">
+          <img src="images/twitter.png" alt="">
+          <div class="footer_collumn_text_media">TWITTER</div>
+      </div>
+      <div class="footer_collumn_text_soc" >
+          <img src="images/instagram-photo-camera-symbol.png" alt="">
+          <div class="footer_collumn_text_media">INSTAGRAM</div>
+      </div>
+  </div>
+  <div class="footer_collumn">
+      <div class="footer_collumn_title">join us</div>
+      <div class="footer_collumn_text_media">Subscribe to our newsletters</div>
+      <input type="email" placeholder="Email Address">
+      <button><div>Subscribe!</div></button>
+  </div>
+</footer>
+<script>
+  var activeSign = document.getElementById('active_sign');
+  var sign1 = document.getElementById('sign1');
+
+  activeSign.addEventListener('click', function() {
+    if (sign1.classList.contains('none')) {
+      sign1.classList.remove('none');
+    } else {
+      sign1.classList.add('none');
+    }
+  });
+  var burger = document.getElementById('burger');
+  var menu = document.getElementById('menu');
+
+  burger.addEventListener('click', function() {
+    this.classList.toggle('open');
+    menu.classList.toggle('open');
+  });
+
+  // Добавляем обработчик событий для документа
+  document.addEventListener('click', function(event) {
+    var isClickInsideBurger = burger.contains(event.target);
+    var isClickInsideMenu = menu.contains(event.target);
+
+    if (!isClickInsideBurger && !isClickInsideMenu) {
+      burger.classList.remove('open');
+      menu.classList.remove('open');
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+.tabbs{
+    fieldset{
+        display: flex;
+        justify-content: center;
+        legend{
+            text-align: center;
+            font-family: Oswald;
+            font-size: 24px;
+            line-height: 68px;
+            text-transform: uppercase;
+        }
+    }
+    &_main{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        .brand{
+            display: flex;
+            align-items: center;
+            width: 235px;
+            min-height: 141px;
+            &_text{
+                font-family: Oswald;
+                font-size: 24px;
+                line-height: 68px;
+                text-align: center;
+                margin-top: 40px;
+                display: none;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            img{
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+    }
+    .brand_text{
+        margin-top: 40px;
+        display: none;
+    }
+}
+.brand.active {
+    background-color: lightgray;
+  }
+.brand_text.active {
+    display: block;
+    font-family: Oswald;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;  
+    max-width: 800px;  
+}

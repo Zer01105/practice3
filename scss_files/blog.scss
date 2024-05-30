@@ -1,0 +1,86 @@
+.blog{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    background-color: #F8F9FB;
+    &_title{
+        font-family: Oswald;
+        font-size: 24px;
+        line-height: 68px;
+        text-align: left;
+    }
+    &_blocks{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_block{
+        position: relative;
+        background-color: white;
+        width: 427px;
+        height: 420px;
+        padding-left: 20px;
+        &_article{
+            margin-top: 20px;
+            font-family: Oswald;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 26.68px;
+            text-align: left;
+            text-transform: uppercase;
+            color:  #BDBDBD;
+        }
+        &_title{
+            max-width: 400px;
+            font-family: Oswald;
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 38.53px;
+            text-align: left;
+        }
+        &_main{
+            margin-top: 40px;
+            font-family: Roboto Light;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            max-width: 395px;
+        }
+        &_line{
+            width: 400px;
+            height: 2px;
+            background-color: black;
+        }
+        &_date{
+            font-family: Oswald;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 37px;
+            text-align: left;
+            color: #4F4F4F;
+        }
+        &_end{
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+.recomended{
+    background-color: #E6F1FA;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_block{
+        margin-right: 50px;
+        max-height: 30px;
+        display: flex;
+        align-items: center;
+        img{
+            height: 30px;
+            width: 30px;
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+header{
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: black;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        width: 94px;
+        height: 44px;
+    }
+    nav{
+        margin-left: 190px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            a{
+                font-family: Oswald;
+                font-size: 14px;
+                line-height: 20.75px;
+                text-align: left;
+                text-transform: uppercase;
+                margin-right: 20px;
+                &:hover{
+                    border-bottom: 2px red solid;
+                    transition: 1s;
+                }
+            }
+        } 
+        .search{
+            align-items: center;
+            input{
+                color: white;
+                margin-right: 0;
+                border: none;
+                border-radius: 5px;
+                background-color: #000000;
+                &::placeholder{
+                    text-align: left;
+                    font-family: Oswald;
+                    font-size: 14px;
+                    line-height: 20.75px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    color: white;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            img{
+                margin-bottom: -3px;  
+            }
+        }
+    }
+    .header_account{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            margin-right: 15px;
+            a{
+                font-family: Oswald;
+                font-size: 14px;
+                line-height: 20.75px;
+                text-align: left;
+                text-transform: uppercase;
+                margin-right: 20px;
+                &:hover{
+                    border-bottom: 2px red solid;
+                    transition: 1s;
+                }  
+            }
+        }
+        img{
+            margin-right: 10px;
+            width: 17px;
+            height: 17px;
+        }
+        &_balance{
+            div{
+                font-family: Roboto Medium;
+                font-size: 12px;
+                letter-spacing: 0.01em;
+                text-align: left;
+                color: white;
+            }
+            .EUR{
+                font-family: Roboto;
+                font-size: 14px;
+                letter-spacing: 0.01em;
+                text-align: left;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.burger{
+    display: none;
+    width: 20px;
+    height: 15px;
+}

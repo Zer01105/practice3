@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    font-family: "Oswald", sans-serif;
+}
+body{
+    background-color: #edeff0;
+}
+@import "./scss_files/fonts.scss";
+@import "./scss_files/header.scss";
+@import "./scss_files/slider.scss";
+@import "./scss_files/tabbs.scss";
+@import "./scss_files/grid.scss";
+@import "./scss_files/filter.scss";
+@import "./scss_files/limits.scss";
+@import "./scss_files/categories.scss";
+@import "./scss_files/blog.scss";
+@import "./scss_files/footer.scss";
+@import "./scss_files/media.scss";

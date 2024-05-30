@@ -1,0 +1,51 @@
+.limits{
+    margin-top: 40px;
+    background-image: url(images/limits/limits.png);
+    &_text{
+        padding-left: 160px;
+        padding-top: 120px;
+        position: relative;
+        height: 347px;
+        img{
+            top: 90px;
+            left: 320px;
+            position: absolute;
+        }
+        &_title{
+            font-family: Oswald;
+            font-size: 56px;
+            line-height: 72px;
+            text-align: left;
+            text-transform: uppercase;
+            max-width: 582px;
+        }
+        &_main{
+            margin-top: 20px;
+            font-family: Roboto Light;
+            font-size: 25px;
+            line-height: 37px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            max-width: 639px;
+            margin-bottom: 40px;
+        }
+        &_button{
+            a{
+                text-transform: uppercase;
+                font-family: Oswald;
+                font-size: 18px;
+                line-height: 26.68px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                margin-right: auto;
+                margin-left: auto;
+                color: black;
+            }
+            width: 175px;
+            height: 56px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
